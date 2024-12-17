@@ -1,0 +1,297 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "新闻资讯"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "新闻资讯列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "新闻资讯详情"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告信息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告信息"
+			}
+		},
+													// 美食信息列表路由
+		{
+			"path": "pages/food_information/list",
+			"style": {
+				"navigationBarTitleText": "美食信息列表"
+			}
+		},
+				// 美食信息详情路由
+		{
+			"path": "pages/food_information/details",
+			"style": {
+				"navigationBarTitleText": "美食信息"
+			}
+		},
+				// 美食订单编辑路由
+		{
+			"path": "pages/food_orders/edit",
+			"style": {
+				"navigationBarTitleText": "美食订单"
+			}
+		},
+															// 学生用户列表路由
+		{
+			"path": "pages/student_users/table",
+			"style": {
+				"navigationBarTitleText": "学生用户列表"
+			}
+		},
+		// 学生用户编辑路由
+		{
+			"path": "pages/student_users/view",
+			"style": {
+				"navigationBarTitleText": "学生用户详情"
+			}
+		},
+				// 配送用户列表路由
+		{
+			"path": "pages/delivery_users/table",
+			"style": {
+				"navigationBarTitleText": "配送用户列表"
+			}
+		},
+		// 配送用户编辑路由
+		{
+			"path": "pages/delivery_users/view",
+			"style": {
+				"navigationBarTitleText": "配送用户详情"
+			}
+		},
+				// 商家用户列表路由
+		{
+			"path": "pages/merchant_users/table",
+			"style": {
+				"navigationBarTitleText": "商家用户列表"
+			}
+		},
+		// 商家用户编辑路由
+		{
+			"path": "pages/merchant_users/view",
+			"style": {
+				"navigationBarTitleText": "商家用户详情"
+			}
+		},
+				// 美食信息列表路由
+		{
+			"path": "pages/food_information/table",
+			"style": {
+				"navigationBarTitleText": "美食信息列表"
+			}
+		},
+		// 美食信息编辑路由
+		{
+			"path": "pages/food_information/view",
+			"style": {
+				"navigationBarTitleText": "美食信息详情"
+			}
+		},
+				// 美食订单列表路由
+		{
+			"path": "pages/food_orders/table",
+			"style": {
+				"navigationBarTitleText": "美食订单列表"
+			}
+		},
+		// 美食订单编辑路由
+		{
+			"path": "pages/food_orders/view",
+			"style": {
+				"navigationBarTitleText": "美食订单详情"
+			}
+		},
+				// 配送订单列表路由
+		{
+			"path": "pages/delivery_order/table",
+			"style": {
+				"navigationBarTitleText": "配送订单列表"
+			}
+		},
+		// 配送订单编辑路由
+		{
+			"path": "pages/delivery_order/view",
+			"style": {
+				"navigationBarTitleText": "配送订单详情"
+			}
+		},
+				// 留言信息列表路由
+		{
+			"path": "pages/message_information/table",
+			"style": {
+				"navigationBarTitleText": "留言信息列表"
+			}
+		},
+		// 留言信息编辑路由
+		{
+			"path": "pages/message_information/view",
+			"style": {
+				"navigationBarTitleText": "留言信息详情"
+			}
+		},
+				// 类型管理列表路由
+		{
+			"path": "pages/type_management/table",
+			"style": {
+				"navigationBarTitleText": "类型管理列表"
+			}
+		},
+		// 类型管理编辑路由
+		{
+			"path": "pages/type_management/view",
+			"style": {
+				"navigationBarTitleText": "类型管理详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "新闻资讯",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
